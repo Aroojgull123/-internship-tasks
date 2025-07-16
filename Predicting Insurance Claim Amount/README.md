@@ -1,77 +1,67 @@
-Predicting Insurance Claim Amounts
+💼 Task 4: Predicting Insurance Claim Amounts
 📌 Objective
-The goal of this project is to estimate medical insurance claim amounts based on personal demographic and health-related data. This helps insurance companies in understanding factors influencing medical costs and in better risk assessment.
+The goal of this task is to estimate the medical insurance claim amount based on personal data. This prediction helps insurance companies better assess risks and understand factors affecting claim costs.
 
-🛠️ Project Overview
-Dataset: Medical Cost Personal Dataset
+📊 Dataset
+Name: Medical Cost Personal Dataset
+Source: Publicly available (e.g., Kaggle)
+Shape: Approximately 1,338 rows × 7 columns
+Target Variable: charges (medical insurance claim amount)
 
-Problem Type: Regression
+🧹 Data Preprocessing
+✔️ Steps Performed:
 
-Target Variable: charges (insurance claim amount)
+Loaded and inspected the dataset structure and checked for missing values
 
-Features: Age, Sex, BMI, Children, Smoking status, Region
+Encoded categorical variables such as sex and smoker using Label Encoding
 
-🔍 Approach
-Data Loading & Exploration
-Loaded the dataset and inspected its structure, data types, and checked for missing values.
+Applied One-Hot Encoding for the region feature
 
-Data Cleaning & Preprocessing
+Cleaned and verified data consistency
 
-Encoded categorical variables (sex, smoker) using Label Encoding.
+🧠 Model Building
+✔️ Model Used:
 
-Applied One-Hot Encoding for region to convert categorical regions into numerical columns.
+Linear Regression to predict continuous target variable
 
-Model Training
+Split data into training and testing sets with an 80/20 ratio
 
-Split data into training and testing sets (80%-20%).
+Trained the model on processed features to predict insurance charges
 
-Trained a Linear Regression model to predict insurance charges.
+📈 Evaluation Metrics
+Mean Absolute Error (MAE)
 
-Evaluation
+Root Mean Squared Error (RMSE)
+These metrics were used to evaluate the model’s prediction accuracy and error magnitude.
 
-Predicted charges on the test set.
+🔍 Visualizations & Insights
+Created scatter plots and boxplots to understand the impact of BMI, age, and smoking status on insurance charges
 
-Evaluated model performance using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
+Found smoking status and BMI to be the most significant factors influencing insurance costs
 
-Visualization & Insights
+Observed a positive correlation between age and insurance charges
 
-Visualized the relationship between BMI, age, smoking status, and insurance charges using scatter plots and boxplots.
+🛠️ Skills Demonstrated
+Data Cleaning & Feature Engineering
 
-Analyzed how each feature impacts the insurance costs.
+Categorical Data Encoding (Label & One-Hot Encoding)
 
-📊 Results
-The model provides an interpretable approach to estimate insurance charges based on personal data.
+Linear Regression Modeling
 
-Smoking status and BMI have significant impact on insurance costs, reflected clearly in the visualizations.
+Model Evaluation using MAE and RMSE
 
-Age shows a positive correlation with insurance charges.
+Data Visualization with Matplotlib and Seaborn
 
-📁 Files Included
-insurance_claim_prediction.ipynb — Jupyter Notebook with full workflow and code.
+🧾 Files Included
+insurance_claim_prediction.ipynb — Complete Jupyter Notebook with data processing, modeling, evaluation, and visualization
 
-README.md — Project summary and insights.
+README.md — Project documentation and summary
 
-🧠 Skills Practiced
-Data cleaning and feature engineering
+✨ Conclusion
+This project successfully predicted medical insurance claim amounts using linear regression. The analysis highlighted that smoking status and BMI are key drivers of insurance charges. These insights can assist insurance providers in risk assessment and premium setting.
 
-Encoding categorical data
-
-Linear regression modeling and evaluation
-
-Data visualization with Seaborn and Matplotlib
-
-🛠️ Tools & Libraries Used
-Python
-
-Pandas
-
-NumPy
-
-Scikit-learn
-
-Matplotlib
-
-Seaborn
-
-Jupyter Notebook / Google Colab
-
+📧 Contact
+Arooj Gull
+Data Science & Analytics Intern
+📩 abubakarshykh00@gmail.com
+LinkedIn
