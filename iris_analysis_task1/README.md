@@ -1,71 +1,78 @@
-**Task 1 – Iris Dataset Analysis**
+# 🌸 Task 1: Iris Dataset Analysis
 
-**📌 Objective**
+## 📌 Objective
+The objective of this task is to perform exploratory data analysis (EDA) on the Iris dataset. By leveraging Python libraries like Pandas, Seaborn, and Matplotlib, we aim to understand feature distributions, visualize species patterns, and identify which features are most useful for distinguishing between the three iris species.
 
-The goal of this task is to explore and visualize the Iris dataset using Python libraries like pandas, seaborn, and matplotlib. The objective is to understand data patterns, identify species differences, and apply basic exploratory data analysis (EDA) techniques.
+---
 
-**🛠️ Approach**
+## 📊 Dataset
+- **Name:** Iris Dataset  
+- **Source:** Scikit-learn / UCI ML Repository  
+- **Shape:** 150 rows × 5 columns  
+- **Target Variable:** `species` (Setosa, Versicolor, Virginica)
 
-**✅ Data Loading & Exploration**
+---
 
-Loaded the Iris dataset using Pandas.
+## 🧹 Data Preparation
 
-Explored structure using .shape, .head(), and .columns.
+### ✔️ Steps Performed:
+- Loaded the dataset using `pandas`
+- Explored structure using `.head()`, `.shape`, `.columns`
+- Checked for missing values (none found)
+- Renamed columns for clarity if needed
 
-Reviewed unique species and basic distribution of features.
+---
 
-**✅ Data Cleaning & Preprocessing**
+## 📊 Exploratory Data Analysis (EDA)
 
-Verified there were no missing values in the dataset.
+### ✔️ Visualizations:
+- **Scatter Plots** to compare petal/sepal length vs width
+- **Histograms** to analyze the distribution of each feature
+- **Box Plots** to detect outliers and compare feature spread across species
+- Species visually separated using **Seaborn’s `hue` parameter**
 
-Renamed columns if necessary for clarity.
+---
 
-**✅ Exploratory Data Analysis (EDA)**
+## 📈 Key Insights
+- **Petal measurements** (length and width) are more effective at distinguishing species than sepal features.
+- **Setosa** species stands out clearly due to its smaller petal sizes.
+- Visual patterns helped identify species separability without even modeling.
 
-Created scatter plots using Seaborn to visualize petal/sepal relationships.
+---
 
-Plotted histograms using Matplotlib to view distributions.
+## 🧠 Skills Practiced
+- Data Cleaning & Feature Understanding  
+- Exploratory Data Analysis (EDA)  
+- Data Visualization (Scatter, Box, Histogram)  
+- Pattern Recognition through Visuals  
+- Statistical Summaries
 
-Used box plots to detect outliers across features.
+---
 
-Separated species visually based on petal measurements.
+## 🛠️ Tools & Libraries Used
+- Python  
+- Pandas  
+- Seaborn  
+- Matplotlib  
+- Jupyter Notebook  
+- Google Colab  
+- Git & GitHub  
 
-**📊 Results and Insights**
+---
 
-Petal features (length and width) are more useful for species classification than sepal features.
+## 📁 Files Included
+- `iris_analysis.ipynb` – Notebook containing full analysis workflow  
+- `README.md` – This documentation file summarizing the project
 
-Setosa species is the easiest to distinguish based on its smaller petal sizes.
+---
 
-Visualizations clearly helped understand how different features impact classification.
+## ✨ Conclusion
+The Iris dataset provides a classic case for EDA and visual classification. Through simple plots and summaries, we observed that petal features provide strong visual cues for species separation, especially for Setosa. This analysis builds foundational skills for deeper machine learning tasks.
 
-**📁 Files Included**
+---
 
-iris_analysis.ipynb – Jupyter Notebook with full Iris dataset workflow
-
-README.md – Summary of approach and insights
-
-**🧠 Skills Practiced**
-
-Data Cleaning & Exploration
-
-Visualization with Seaborn & Matplotlib
-
-Statistical Summaries
-
-Exploratory Data Analysis (EDA)
-
-**🛠️ Tools & Libraries Used**
-
-Python
-
-Pandas
-
-Seaborn
-
-Matplotlib
-
-Jupyter Notebook
-
-Git & GitHub
-
-Google Colab
+## 📧 Contact
+**Arooj Gull**  
+_Data Science & Analytics Intern_  
+📩 abubakarshykh00@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/arooj-gull-shykh)
