@@ -67,4 +67,4 @@ This project delivers a robust classification model to predict personal loan acc
 # 📧 Contact
 Arooj Gull
 Aspiring Software Engineer & Front-End Developer Intern
-# aroojgull@gmail.com
+# abubakarshykh00@gmail.com
